@@ -1,0 +1,18 @@
+{
+  "name": "shared-utility",
+  "version": "1.0",
+  "description": "Shared utility functions for TS based Lambdas",
+  "main": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./json": "./src/json.ts",
+    "./number": "./src/number.ts"
+  },
+  "repository": "https://github.com/moonline/Lab.AWS.Lambda.Shared-Utility",
+  "author": "moonline",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "decimal.js": "^10.0.0",
+    "lossless-json": "^4.0.0"
+  }
+}
