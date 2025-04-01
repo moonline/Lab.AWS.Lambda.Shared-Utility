@@ -1,6 +1,6 @@
 {
   "name": "shared-utility",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Shared utility functions for TS based Lambdas",
   "main": "src/index.ts",
   "exports": {
